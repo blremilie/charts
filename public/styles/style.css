@@ -1,0 +1,214 @@
+/*Début définition de la police*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+/*Fin définition de la police*/
+
+/*Début style de base*/
+
+*,::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    font-size: calc(16px + 0.390625vw);
+}
+
+html {
+    height: 100%; 
+    width: 100%; 
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color:rgba(247,233,220,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: DM sans;
+    font-size: 100%;
+    color: hsl(25, 47%, 15%);
+    margin-top: 7%;
+    margin-left: 7%;
+}
+
+h2{
+    font-family: Dm sans;
+    font-size: 60%;
+    color: hsl(27, 66%, 92%);
+    width: 30%;
+    font-weight: 300;
+}
+
+p{
+    font-size: 100%;
+    font-family:DM sans;
+    color:hsl(28, 10%, 53%);
+}
+
+hr{
+    width: 86%;
+    height: 0.5%;
+    border-color: rgba(247,233,220,255);
+    background-color: rgba(247,233,220,255);
+    border-top: none;
+    border-left: none;
+    margin-left: 7%;
+}
+
+/*Fin style de base*/
+
+/*Début style main_container*/
+
+#main_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+/*Fin style main_container*/
+
+/*Début style balance_container*/
+
+#balance_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: hsl(10, 79%, 65%);
+    width: 30%;
+    height: 12%;
+    border-radius: 5%;
+    margin: 2%;
+}
+/*Fin style balance_container*/
+
+/*Début style text*/
+
+#text{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 7%;
+    line-height: 1.5;
+}
+/*Fin style text*/
+
+/*Début style total_sum*/
+
+ #total_sum{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color:hsl(27, 66%, 92%);
+    font-size: 100%;
+    font-weight: bold;
+    width: 30%;
+    height: 30%;
+ }
+
+/*Fin style total_sum*/
+
+/*Début style logo*/
+
+#logo{
+    width: 10%;
+    height: 40%;
+    margin-top: 5%;
+    margin-right: 12%;
+}
+
+/*Fin style img*/
+
+/*Début style graph_container*/
+
+#graph_container{
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(33, 100%, 98%) ;
+    width: 30%;
+    height: 50%;
+    border-radius: 5%;
+}
+/*Fin style graph_container*/
+
+/*Début style graph*/
+
+#graph_place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+}
+/*Fin style graph*/
+
+/*Début style result*/
+
+#result{
+    display: flex;
+    height: 20%;
+
+}
+/*Fin style result*/
+
+/*Début style left*/
+
+#left{
+    width: 70%;
+}
+/*Fin style left*/
+
+/*Début style total_text*/
+
+#total_text{
+    margin-left: 10%;
+    margin-top: 7%;
+    font-size: 70%;
+}
+/*Fin style total_text*/
+
+/*Début style total*/
+
+#total{
+    color: hsl(25, 47%, 15%);
+    font-weight: bolder;
+    font-size: 150%;
+    margin-left: 10%;
+}
+
+/*Fin style total*/
+
+/*Début style right*/
+
+#right{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/*Fin style right*/
+
+/*Début style percent*/
+#percent {
+    color: hsl(25, 47%, 15%);
+    font-size: 80%;
+    font-weight: bolder;
+    margin-top: 28%;
+    margin-right: 20%;
+    text-align: right ;
+}
+/*Fin style percent*/
+
+/*Début style month*/
+
+#month{
+    font-size: 70%;
+    width: 83%;
+}
+/*Fin style month*/

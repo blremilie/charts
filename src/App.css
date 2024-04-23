@@ -1,0 +1,11 @@
+#graph{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data{
+    background-color:hsl(10, 79%, 65%) ;
+}
