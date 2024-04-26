@@ -212,3 +212,74 @@ hr{
     width: 83%;
 }
 /*Fin style month*/
+
+/*Début définition responsive*/
+
+@media all and (min-width: 375px) and (max-width: 1440px) {
+    
+h2{
+    font-size: 65%;
+    width: 100%;
+}
+
+#balance_container{
+    width: 90%;
+    height: 12%;
+}
+
+#text{
+    margin-top: 8%;
+    margin-left: 10%;
+    width: 100%;
+}
+
+#logo{
+    width: 20%;
+    display: flex;
+    margin-top: 8%;
+    margin-right: 2%;
+}
+
+#graph_container{
+    background-color:hsl(33, 100%, 98%) ;
+    width: 90%;
+    height: 60%;
+    border-radius: 5%;
+}
+
+#result{
+    display: flex;
+    height: 50%;
+}
+
+
+#left{
+    width: 60%;
+    margin-top: 10%;
+}
+
+#total_text{
+    font-size: 100%;
+}
+
+#total{
+   width: 30%;
+}
+
+#right{
+    width: 50%;
+    height: 100%;
+    margin-top: 5%;
+}
+
+#percent {
+    font-size: 100%;
+    margin-left: 50%;
+}
+
+#month{
+    font-size: 90%;
+    margin-left: 7%;
+}
+}
+/*Fin définition resposive*/
